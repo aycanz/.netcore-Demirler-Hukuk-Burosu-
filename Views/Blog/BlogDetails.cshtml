@@ -1,0 +1,91 @@
+﻿@using EntityLayer.Concrete
+@model Blog
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Demirler Hukuk</title>
+
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Libraries CSS Files -->
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Main Stylesheet File -->
+    <link href="~/DEMİRLER/detay.css" rel="stylesheet">
+
+    <link href="~/DEMİRLER/style.css" rel="stylesheet">
+    <link href="~/DEMİRLER/hizmet.css" rel="stylesheet">
+ 
+
+</head>
+<body>
+
+
+    <nav class="navbar">
+        <div class="logo">Demirler</div>
+        
+    </nav>
+    <!--/ Nav End /-->
+    <!-- Hakkımızda Bölümü -->
+    <section id="hakkimizda" class="hakkimizda-container">
+        <div class="hakkimizda-content">
+            <div class="hakkimizda-text">
+                <h2>
+                    @Model.BaslıkAdı
+                </h2>
+                <p>
+                    @Model.Metin
+                 </p>
+                 
+            </div>
+           
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="copyright-box">
+                        <p class="copyright">&copy; Copyright <strong>Demirler</strong>. Tüm Hakları Saklıdır.</p>
+                        <div class="credits">
+                            Inspired from <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Libraries -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery/jquery-migrate.min.js"></script>
+    <script src="lib/popper/popper.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/counterup/jquery.waypoints.min.js"></script>
+    <script src="lib/counterup/jquery.counterup.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <!-- Contact Form JavaScript File -->
+    <!-- Template Main Javascript File -->
+    <script src="~/DEMİRLER/main.js"></script>
+
+
+
+
+</body>
+</html>

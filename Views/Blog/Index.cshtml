@@ -1,0 +1,383 @@
+﻿@using EntityLayer.Concrete
+@model List<Blog>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Demirler Hukuk Bürosu </title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicons
+    <link href="img/favicon.png" rel="icon">
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">-->
+    <!-- Bootstrap CSS File -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Libraries CSS Files -->
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Main Stylesheet File -->
+    <link href="~/DEMİRLER/style.css" rel="stylesheet">
+    <link href="~/DEMİRLER/hizmet.css" rel="stylesheet">
+
+
+</head>
+
+<body id="page-top">
+
+    <!--/ Nav Star /-->
+    <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll" href="#page-top">Demirler</a>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+                    aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll active" href="#home">Ana Sayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="#avukatlar">HakkImIzda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="#hizmet">Hİzmetlerİmİz</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="#work">EKİBİMİZ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="#bizeulasin">BİZE ULAŞIN</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--/ Nav End /-->
+    <!--/ Intro Skew Star /-->
+    <div id="home" class="intro route bg-image" style="background-image: url(DEMİRLER/img/önbanner.webp)">
+        <div class="overlay-itro"></div>
+        <div class="intro-content display-table">
+            <div class="table-cell">
+                <div class="container">
+                    <h1 class="intro-title mb-4">Demirler Hukuk</h1>
+                    <p class="intro-subtitle"><span class="text-slider-items">Hukuki danışmanlık ,Avukatlık hizmetleri</span><strong class="text-slider"></strong></p>
+                    <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ Intro Skew End /-->
+
+
+
+    <!-- Hakkımızda Bölümü -->
+    <section id="hakkimizda" class="hakkimizda-container">
+        <div class="hakkimizda-content">
+            <div class="hakkimizda-text">
+                <h2>Hakkımızda</h2>
+                <p>
+                    Demirler Hukuk olarak farklı hukuk disiplinleri konusunda çalışan takımlarımızın bilgi ve deneyimlerini bütünleşik olarak müvekkillerimizin hizmetine sunmaya özen gösteriyoruz; bu sayede daha etkin ve faydalı bir sonuç yaratabileceğimize inanıyoruz.
+                </p>
+                <p>
+                    Müvekkillerimizin başarısını, kendi başarımızdan önde görürüz. Müvekkillerimizin değişen ihtiyaçlarına daha doğru ve etkin bir şekilde cevap verebilmek için onların faaliyet gösterdiği sektörlerdeki gelişmeleri yakından takip eder, bu sektörlerde sadece hukuki değil uygulamaya yönelik bilgileri de edinerek bilgilerimizi derinleştiririz.
+                </p>
+            </div>
+            <div class="hakkimizda-image">
+                <img src="DEMİRLER/img/hakkimizda.webp" alt="Hakkımızda Görseli">
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="avukatlar" class="avukatlar-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="title-box text-center">
+                        <h3 class="title-a">
+                            kurucularımız
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="avukatlar-row">
+                <!-- Avukat 1 -->
+                <div class="avukat-card">
+                    <!--img src="img/lawyer1.jpg" alt="Avukat 1"-->
+                    <div class="avukat-name">Asım Demir</div>
+                    <div class="avukat-info">
+                        <p>Avukat</p>
+                    </div>
+                    <!-- Avukatın Geçmişi (Hover'da görünecek) -->
+                    <div class="avukat-history">
+                        <p>Asım DEMİR, İstanbul Üniversitesi Hukuk Fakültesinden mezun olmuştur. Uzmanlık alanları Ticaret Hukuku, İcra ve İflas Hukuku, Sigorta ve Tazminat Hukuku, Gayrimenkul Hukuku ve Ceza Hukuku’dur.</p>
+                    </div>
+
+                </div>
+                <!-- Avukat 2 -->
+                <div class="avukat-card">
+                    <!--img src="img/lawyer1.jpg" alt="Avukat 2"-->
+                    <div class="avukat-name">Hatice Esra Demir</div>
+                    <div class="avukat-info">
+                        <p>Avukat</p>
+                    </div>
+                    <!-- Avukatın Geçmişi (Hover'da görünecek) -->
+                    <div class="avukat-history">
+                        <p>
+                            Hatice Esra DEMİR, İstanbul Üniversitesi Hukuk Fakültesinden Onur Derecesiyle mezun olmuştur. Uzmanlık alanları Aile Hukuku, Miras Hukuku, Tüketici Hukuku ve İş Hukuku’dur.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <!--/ Section Hızmet End /-->
+    <!--/ Section Hızmet End /-->
+
+
+    <section id="hizmet" class="hizmet-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="title-box text-center">
+                        <h3 class="title-a">
+                            Faalİyet Alanlarımız
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Ceza Hukuku -->
+                <div class="col-md-4">
+                    <div class="hizmet-box">
+                        <div class="hizmet-content">
+                            <h2 class="s-title">Tİcaret Hukuku</h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- Aile Hukuku -->
+                <div class="col-md-4">
+                    <div class="hizmet-box">
+                        <div class="hizmet-content">
+                            <h2 class="s-title">İcra ve İflas Hukuku</h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- Ticaret Hukuku -->
+                <div class="col-md-4">
+                    <div class="hizmet-box">
+                        <div class="hizmet-content">
+                            <h2 class="s-title">Gayrİmenkul Hukuku</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="hizmet-box">
+                        <div class="hizmet-content">
+                            <h2 class="s-title">İş ve Sosyal Güvenlik Hukuku</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="hizmet-box">
+                        <div class="hizmet-content">
+                            <h2 class="s-title">Sİgorta ve Tazmİnat Hukuku</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="hizmet-box">
+                        <div class="hizmet-content">
+                            <h2 class="s-title">Aİle Hukuku</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="hizmet-box">
+                        <div class="hizmet-content">
+                            <h2 class="s-title">Sağlık Hukuku</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="hizmet-box">
+                        <div class="hizmet-content">
+                            <h2 class="s-title">İdare Hukuku</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="hizmet-box">
+                        <div class="hizmet-content">
+                            <h2 class="s-title">Ceza Hukuku</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="hizmet-box">
+                        <div class="hizmet-content">
+                            <h2 class="s-title">TÜketİcİ Hukuku</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="hizmet-box">
+                        <div class="hizmet-content">
+                            <h2 class="s-title">Mİras Hukuku</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <div class="section-counter paralax-mf bg-image" style="background-image: url(DEMİRLER/img/arkabanner.webp)">
+
+
+
+        <h2 class="home-title">Hukuki Sorunlarınızın Çözümüne Yardımcı Oluyoruz </h2>
+
+
+
+    </div>
+
+    <!-- Yayınlarımız Kısmı -->
+    <section id="yayinlarimiz" class="yayinlarimiz-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="title-box text-center">
+                        <h3 class="title-a">Yayınlarımız</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="owl-carousel yayinlarimiz-carousel">
+                        @foreach (var item in Model.Take(6))
+                        {
+                            <!-- Sadece ilk 6 öğeyi al -->
+                            <div class="yayin-item">
+                                <div class="yayin-box">
+                                    <div class="yayin-content">
+                                      
+                                        <h2 class="s-title">@item.BaslıkAdı</h2>
+                                        <p class="s-description">@(item.Metin.Length > 200 ? item.Metin.Substring(0, 200) + "..." : item.Metin)</p>
+                                        <a href="/blog-details/@item.YayınID/"  class="btn btn-primary">Devamını Oku</a>
+                                    </div>
+                                    <div class="yayin-footer">
+                                      
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--/ Section Contact-Footer Star /-->
+    <!--/ Section Contact-Footer Star /-->
+    <section id="bizeulasin" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(DEMİRLER/img/arkabanner.webp)">
+        <div class="overlay-mf"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="contact-mf">
+                        <div id="contact" class="box-shadow-full">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="title-box-2">
+                                        <h5 class="title-left">
+                                            Bize Ulaşın
+                                        </h5>
+                                    </div>
+                                    <div class="harita">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467.6757022982065!2d29.081534397978356!3d37.77953390167224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c73fafe6f5673d%3A0xab1745174b4a8cea!2sS%C4%B1rakap%C4%B1lar%2C%20Saltak%20Cd.%20No%3A58%20Apt%20K%3A4%20D%2C%2020010%20Denizli%20Merkez%2FDenizli!5e0!3m2!1str!2str!4v1735067983118!5m2!1str!2str" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    </div>
+                                    <div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="title-box-2 pt-4 pt-md-0">
+                                    </div>
+                                    <div class="more-info">
+                                        <ul class="list-ico">
+                                            <li><span class="ion-ios-location"></span> Sırakapılar Mah. Saltak Cad. No:58 Tabakboyacı Apt K:4 D:8 (Demirler Hukuk) Merkezefendi/DENİZLİ</li>
+                                            <li><span class="ion-ios-telephone"></span> 0(532) 770 82 20</li>
+                                            <li><span class="ion-email"></span> demir@demirler.av.tr</li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="copyright-box">
+                            <p class="copyright">&copy; Copyright <strong>Demirler</strong>. Tüm Hakları Saklıdır.</p>
+                            <div class="credits">
+                                Inspired from <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <!--/ Section Contact-footer End /-->
+    <!--/ Section Contact-footer End /-->
+
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+    <div id="preloader"></div>
+
+    <!-- JavaScript Libraries -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery/jquery-migrate.min.js"></script>
+    <script src="lib/popper/popper.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/counterup/jquery.waypoints.min.js"></script>
+    <script src="lib/counterup/jquery.counterup.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <!-- Contact Form JavaScript File -->
+    <!-- Template Main Javascript File -->
+    <script src="~/DEMİRLER/main.js"></script>
+
+
+</body>
+</html>
