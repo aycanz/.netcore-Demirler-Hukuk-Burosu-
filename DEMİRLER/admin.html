@@ -1,0 +1,60 @@
+<!-- admin.html -->
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <!-- Mevcut head içeriğini buraya kopyalayın -->
+  <title>Demirler Hukuk - Admin Paneli</title>
+  <!-- Yeni admin.css ekleyin -->
+  <link href="admin.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar aynı kalacak -->
+
+  <!-- Admin Giriş Formu -->
+  <section id="adminLogin" class="admin-section">
+    <div class="container">
+      <div class="admin-box">
+        <h2>Admin Girişi</h2>
+        <form id="loginForm">
+          <div class="form-group">
+            <input type="text" id="username" placeholder="Kullanıcı Adı" required>
+          </div>
+          <div class="form-group">
+            <input type="password" id="password" placeholder="Şifre" required>
+          </div>
+          <button type="submit" class="btn-admin">Giriş Yap</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Yönetim Paneli -->
+  <section id="adminPanel" class="admin-section" style="display:none;">
+    <div class="container">
+      <h2>Blog Yönetimi</h2>
+      <button class="btn-admin" onclick="showAddForm()">Yeni Yazı Ekle</button>
+      
+      <!-- Blog Listesi -->
+      <div id="blogList" class="blog-list"></div>
+      
+      <!-- Blog Ekle/Düzenle Formu -->
+      <div id="blogForm" class="blog-form" style="display:none;">
+        <form id="postForm">
+          <input type="hidden" id="postId">
+          <div class="form-group">
+            <input type="text" id="postTitle" placeholder="Başlık" required>
+          </div>
+          <div class="form-group">
+            <textarea id="postContent" placeholder="İçerik" required></textarea>
+          </div>
+          <button type="submit" class="btn-admin">Kaydet</button>
+          <button type="button" class="btn-admin-cancel" onclick="cancelEdit()">İptal</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Admin JS -->
+  <script src="admin.js"></script>
+</body>
+</html>

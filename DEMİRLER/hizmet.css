@@ -1,0 +1,352 @@
+
+
+
+.hizmet-box {
+    background-color: #f4f4f4; /* Arka plan rengi */
+    padding: 3rem 2rem; /* İç boşluk */
+    border-radius: 1.5rem; /* Köşe yuvarlaklığı */
+    margin-bottom: 4rem; /* Alt boşluk */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Gölge efekti */
+    transition: all 0.3s ease-in-out; /* Geçiş efekti */
+}
+
+    /* Hover Durumu */
+    .hizmet-box:hover {
+        transform: translateY(-10px); /* Yükselme efekti */
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1); /* Daha belirgin gölge */
+    }
+
+    /* Servis Başlığı Stili */
+    .hizmet-box .s-title {
+        font-size: 1.6rem; /* Başlık font boyutu */
+        text-transform: uppercase; /* Başlık harf büyüklüğü */
+        text-align: center; /* Başlık hizalama */
+        padding: .6rem 0; /* Başlık iç boşluğu */
+        color: #333; /* Başlık rengi */
+        font-weight: 700; /* Başlık kalınlığı */
+    }
+
+    /* Açıklama Metni Stili */
+    .hizmet-box .s-description {
+        color: #666; /* Açıklama rengi */
+        font-size: 1.1rem; /* Açıklama font boyutu */
+        line-height: 1.6; /* Satır aralığı */
+        text-align: center; /* Açıklama hizalama */
+        margin-top: 1rem; /* Üst boşluk */
+    }
+
+/* Hizmet Bölümü Genel Stili */
+
+.hizmet-section {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding-top: 4rem; /* Üst boşluk */
+    padding-bottom: 15rem !important; /* Alt boşluk */
+}
+
+
+/* Hizmet Bölümü Genel Stili */
+ 
+/*======================================
+//--//-->   İLETİŞİM
+======================================*/
+
+.ayaksayfa-paralaks {
+    padding: 4rem 0 0 0;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.katman-mf {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.iletisim-mf {
+    margin-top: 3rem;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/*======================================
+//--//-->  footer
+======================================*/
+
+footer {
+    text-align: center;
+    color: #eee;
+    padding: 2rem 0;
+    background-color: #333;
+}
+
+.telif-hakki-kutu {
+    margin-top: 1rem;
+}
+
+.telif-hakki {
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+}
+
+.krediler a {
+    color: #ffc107;
+    text-decoration: none;
+}
+
+
+/*======================================
+//--//-->   İLETİŞİM FORMU
+======================================*/
+
+#mesajgonderildi {
+    color: #28a745;
+    border: 1px solid #28a745;
+    display: none;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+#hataMesaji {
+    color: #dc3545;
+    display: none;
+    border: 1px solid #dc3545;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.show {
+    display: block !important;
+}
+
+.dogrulama {
+    color: #dc3545;
+    display: none;
+    margin: 0 0 20px;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.form-kontrol {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    margin-bottom: 1rem;
+    font-size: 16px;
+}
+
+.buton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+    .buton:hover {
+        background-color: #0056b3;
+    }
+
+
+/* Yayınlarımız Kısmı */
+
+.avukatlar-section {
+    padding: 9rem 0;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+.yayinlarimiz-section {
+    padding: 9rem 0;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+.yayinlarimiz-carousel .yayin-item {
+    padding: 15px;
+}
+
+.yayin-box {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 3rem;
+    border-radius: 10px;
+    border: 2px solid #4f534b;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 550px;
+}
+
+    .yayin-box:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    }
+
+.yayin-content {
+    text-align: left;
+    
+    flex-grow: 1; /* İçeriği esnetir ve butonları aşağı iter */
+    display: flex;
+    flex-direction: column;
+}
+
+    .yayin-content .date {
+        font-size: 0.9rem;
+        font-weight: bold;
+        color: #b8c1a9;
+        margin-bottom: 0.5rem;
+    }
+
+    .yayin-content .s-title {
+        font-size: 1.9rem;
+        font-weight: bold;
+        color: #1a4603;
+        margin-bottom: 2rem;
+    }
+
+    .yayin-content .s-description {
+        font-size: 1.1rem;
+        color: #333;
+        margin-bottom: 2rem;
+    }
+
+    .yayin-content .btn-primary {
+        background-color: #b8c1a9;
+        border-color: #b8c1a9;
+        color: #333;
+        padding: 0.6rem 1.5rem;
+        border-radius: 0.3rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        transition: all 0.3s ease-in-out;
+        align-self: center; /* Butonları ortalar */
+        margin-top: auto; /* Butonu en alta iter */
+    }
+
+        .yayin-content .btn-primary:hover {
+            background-color: #8c9b76;
+            border-color: #8c9b76;
+        }
+ 
+
+/* Slider dots */
+.owl-dots {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.owl-dot {
+    width: 12px;
+    height: 12px;
+    background: #b8c1a9;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+
+    .owl-dot.active {
+        background: #4f534b;
+        transform: scale(1.2);
+    }
+
+
+
+
+
+
+
+.hakkimizda-container {
+    background: rgba(255, 255, 255, 0.95); /* Şık degrade arka plan */
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hakkimizda-content {
+    display: flex;
+    align-items: center;
+    max-width: 1100px;
+    background: rgba(255, 255, 255, 0.1); /* Hafif saydam kart görünümü */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+.hakkimizda-text {
+    flex: 1;
+    color: #fff;
+    padding: 20px;
+}
+
+    .hakkimizda-text h2 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+
+    .hakkimizda-text p {
+        font-size: 1.2rem;
+        line-height: 1.6;
+        color: #1a4603;
+    }
+
+.hakkimizda-image {
+    flex: 1;
+    text-align: center;
+}
+
+    .hakkimizda-image img {
+        max-width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+@media (max-width: 768px) {
+    .hakkimizda-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hakkimizda-image {
+        margin-top: 20px;
+    }
+}
+.yayinlarimiz-baslik {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    position: relative;
+}
+
+    .yayinlarimiz-baslik::before {
+        content: "";
+        width: 50px;
+        height: 5px;
+        background: #4CAF50; /* Yeşil vurgu rengi */
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+    }
+
+    .yayinlarimiz-baslik::after {
+        content: "📖"; /* Kitap ikonu */
+        font-size: 1.5rem;
+        margin-left: 10px;
+        color: #4CAF50;
+    }

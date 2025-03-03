@@ -1,0 +1,153 @@
+﻿/*======================================
+//--//-->   NAVBAR
+======================================*/
+
+.navbar-b {
+    background-color: #0e1511 !important; /* Tek renk */
+    padding-top: 1.563rem;
+    padding-bottom: 1.563rem;
+}
+
+    .navbar-b .nav-item {
+        position: relative;
+        padding-right: 10px;
+        padding-left: 0;
+    }
+
+    .navbar-b .nav-link {
+        color: #dae0cd;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+        .navbar-b .nav-link:before {
+            content: '';
+            position: absolute;
+            margin-left: 0px;
+            width: 0%;
+            bottom: 0;
+            left: 0;
+            height: 2px;
+            transition: all 500ms ease;
+            background-color: #dae0cd;
+        }
+
+        .navbar-b .nav-link:hover {
+            color: #dae0cd;
+        }
+
+            .navbar-b .nav-link:hover:before,
+            .navbar-b .nav-link.active:before {
+                width: 35px;
+            }
+
+    .navbar-b .navbar-brand {
+        color: #dae0cd;
+        font-size: 1.6rem;
+        font-weight: 600;
+    }
+
+    .navbar-b .navbar-toggler span {
+        background-color: #dae0cd;
+    }
+
+    .navbar-b .dropdown-menu {
+        margin: 1.12rem 0 0;
+        border-radius: 0;
+    }
+
+        .navbar-b .dropdown-menu .dropdown-item {
+            padding: .7rem 1.7rem;
+            transition: all 500ms ease;
+        }
+
+            .navbar-b .dropdown-menu .dropdown-item:hover {
+                background-color: #dae0cd;
+                color: #fff;
+            }
+
+            .navbar-b .dropdown-menu .dropdown-item.active {
+                background-color: #dae0cd;
+            }
+
+/*--/ Hamburger Navbar /--*/
+
+.navbar-toggler {
+    position: relative;
+}
+
+    .navbar-toggler:focus,
+    .navbar-toggler:active {
+        outline: 0;
+    }
+
+    .navbar-toggler span {
+        display: block;
+        background-color: #dae0cd;
+        height: 3px;
+        width: 25px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        transform: rotate(0deg);
+        left: 0;
+        opacity: 1;
+    }
+
+    .navbar-toggler:not(.collapsed) span:nth-child(1) {
+        position: absolute;
+        left: 12px;
+        top: 10px;
+        transform: rotate(135deg);
+        opacity: 0.9;
+    }
+
+    .navbar-toggler:not(.collapsed) span:nth-child(2) {
+        height: 12px;
+        visibility: hidden;
+        background-color: transparent;
+    }
+
+    .navbar-toggler:not(.collapsed) span:nth-child(3) {
+        position: absolute;
+        left: 12px;
+        top: 10px;
+        transform: rotate(-135deg);
+        opacity: 0.9;
+    }
+
+    /* Genel Sayfa Ayarları */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Sayfanın genel arka plan rengi */
+    margin: 0;
+    padding: 0;
+}
+
+/* Blog Konteyner */
+.blog-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Sayfanın tamamını kaplasın */
+    padding: 1px;
+    
+}
+
+/* Blog İçeriği */
+.blogscontainer {
+     background: white;
+    padding: 50px;
+    border-radius: 10px; /* Yuvarlatılmış köşeler */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+    max-width: 800px;
+    width: 100%;
+}
+
+/* Başlık */
+.blog-title {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+ 

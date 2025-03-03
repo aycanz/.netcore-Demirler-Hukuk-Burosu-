@@ -1,0 +1,14 @@
+﻿.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111814; /* Siyah arka plan */
+    padding: 15px 50px;
+}
+
+.logo {
+    color: #ECECE4;
+    font-size: 22px;
+    font-weight: bold;
+}
+ 
