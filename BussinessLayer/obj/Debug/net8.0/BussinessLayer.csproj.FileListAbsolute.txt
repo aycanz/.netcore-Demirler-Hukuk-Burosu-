@@ -1,0 +1,17 @@
+C:\Users\aycan\source\repos\Demirler\BussinessLayer\bin\Debug\net8.0\BussinessLayer.deps.json
+C:\Users\aycan\source\repos\Demirler\BussinessLayer\bin\Debug\net8.0\BussinessLayer.dll
+C:\Users\aycan\source\repos\Demirler\BussinessLayer\bin\Debug\net8.0\BussinessLayer.pdb
+C:\Users\aycan\source\repos\Demirler\BussinessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+C:\Users\aycan\source\repos\Demirler\BussinessLayer\bin\Debug\net8.0\EntityLayer.dll
+C:\Users\aycan\source\repos\Demirler\BussinessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\aycan\source\repos\Demirler\BussinessLayer\bin\Debug\net8.0\EntityLayer.pdb
+C:\Users\aycan\source\repos\Demirler\BussinessLayer\obj\Debug\net8.0\BussinessLayer.csproj.AssemblyReference.cache
+C:\Users\aycan\source\repos\Demirler\BussinessLayer\obj\Debug\net8.0\BussinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aycan\source\repos\Demirler\BussinessLayer\obj\Debug\net8.0\BussinessLayer.AssemblyInfoInputs.cache
+C:\Users\aycan\source\repos\Demirler\BussinessLayer\obj\Debug\net8.0\BussinessLayer.AssemblyInfo.cs
+C:\Users\aycan\source\repos\Demirler\BussinessLayer\obj\Debug\net8.0\BussinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\aycan\source\repos\Demirler\BussinessLayer\obj\Debug\net8.0\BussinessLayer.csproj.CopyComplete
+C:\Users\aycan\source\repos\Demirler\BussinessLayer\obj\Debug\net8.0\BussinessLayer.dll
+C:\Users\aycan\source\repos\Demirler\BussinessLayer\obj\Debug\net8.0\refint\BussinessLayer.dll
+C:\Users\aycan\source\repos\Demirler\BussinessLayer\obj\Debug\net8.0\BussinessLayer.pdb
+C:\Users\aycan\source\repos\Demirler\BussinessLayer\obj\Debug\net8.0\ref\BussinessLayer.dll
