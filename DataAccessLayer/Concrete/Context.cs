@@ -9,7 +9,7 @@ namespace DataAccessLayer.Concrete
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source =  77.245.159.27\\MSSQLSERVER2019; Initial Catalog = Db_Demirler5;user=dilardb;password=w62@5mC4r;TrustServerCertificate=True");
+            optionsBuilder.UseSqlServer("Data Source =  ip\\MSSQLSERVER2019; Initial Catalog = Db_Demirler5;user=;password=;TrustServerCertificate=True");
         }
 
 
