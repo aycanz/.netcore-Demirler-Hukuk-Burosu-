@@ -23,7 +23,7 @@ namespace Demirler.Controllers
         }
 
         [HttpGet]
-        public IActionResult BlogAdd()
+        public IActionResult Admin()
         {
             var values = bm.GetList();
             return View(values);
@@ -31,11 +31,11 @@ namespace Demirler.Controllers
         }
 
         [HttpPost]
-        public IActionResult BlogAdd(Blog model)
+        public IActionResult Admin(Blog model)
         {
             
              bm.BlogAdd(model);  // Blog verisini ekleme işlemi yapılıyor
-            return RedirectToAction("BlogAdd");
+            return RedirectToAction("Admin");
             ;// return RedirectToAction("Index"); // Başarılıysa anasayfaya yönlendir
         }
 
@@ -46,7 +46,7 @@ namespace Demirler.Controllers
         {
             var blog = bm.GetBlogById(id);
             bm.BlogDelete(blog);
-            return RedirectToAction("BlogAdd");
+            return RedirectToAction("Admin");
         }
 
         public IActionResult Deneme()
